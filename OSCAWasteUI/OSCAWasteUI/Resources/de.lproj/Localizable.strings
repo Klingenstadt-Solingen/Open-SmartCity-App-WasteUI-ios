@@ -1,0 +1,111 @@
+/*
+  Localizable.strings
+  OSCAWasteUI
+
+  Created by Ömer Kurutay on 29.06.22.
+  
+*/
+
+// MARK: Shared
+
+// The alert title for an error
+"waste_alert_title_error" = "Fehler";
+// The alert action title to confirm
+"waste_alert_title_confirm" = "OK";
+// The description for organic waste
+"waste_organic_waste_description" = "In die Biotonne gehören alle organischen Küchenabfälle, vor und nach dem Kochtopf, sowie Grünabfälle, zum Beispiel Speisereste, Topf- und Balkonpflanzen, Teebeutel und Kaffeefilter.\nNicht in die Biotonne gehört Restmüll aller Art, zum Beispiel Windeln, Katzenstreu sowie flüssige Speiseabfälle.";
+// The text for residual waste
+"waste_residual_waste_description" = "Die Restabfalltonne steht für den klassischen Restmüll zur Verfügung, beispielsweise Hygieneartikel, Asche und Haushaltsgegenstände aus Plastik.";
+// The text for recycled paper
+"waste_recycled_paper_description" = "In die blaue Papiertonne gehören Papier, Pappe und Kartons, darunter Geschenkpapier, Zeitschriften und Kataloge.\nNicht in die Papiertonne gehören Aktenordner, Tetra Paks und fettige Pizzakartons.";
+// The text for dual system
+"waste_dual_system_description" = "Die Gelbe Tonne steht Ihnen für Verpackungen aus Aluminium, Kunststoff, Metall und Verbundstoff zur Verfügung. Also für Verpackungen wie beispielsweise: Aluschaken, Joghurtbecher, Konservendosen oder Milchtüten.\nGebrauchsgegenstände aus Kunststoff, Metall und Verbundstoff gehören hingegen in die Restabfalltonne.";
+// The text for christmas tree
+"waste_christmas_tree_description" = "Zu Beginn eines jeden neuen Jahres sind wir unterwegs, um die ausgedienten Weihnachtsbäume einzusammeln und zu Holzhäckseln zu verarbeiten.";
+// The text for bulk waste
+"waste_bulk_waste_description" = "Die Abholung von sperrigen Abfällen, die wegen ihrer Größe nicht in eine Restmülltonne passen, erfolgt nach Antragstellung. Zum Sperrmüll gehören beispielsweise bewegliches Mobilar aus dem Haushalt, Kühlschränke, Gartenmöbel und große Spielzeuge.";
+
+// MARK: Waste Setup
+
+// The screen title
+"waste_setup_screen_title" = "Abfall Einstellung";
+// Placeholder for searchbar
+"waste_search_placeholder" = "Suche nach Adresse";
+// The description for setting up the user waste address
+"waste_address_setup_description" = "Richte deine Adresse ein, um zu sehen, wann dein Müll abgeholt wird.";
+// The instruction for setting up the user waste address
+"waste_address_setup_instruction" = "Wähle eine Adresse aus und fahre fort.";
+// Select district
+"waste_select_district" = "Wählen Sie bitte einen Stadtteil aus.";
+
+// MARK: Waste
+
+// The screen title
+"waste_screen_title" = "Abfall";
+// The reminder title
+"waste_reminder_title" = "Erinnerung einschalten";
+// The title for the next waste appointment
+"waste_next_appointment_title" = "Nächste Termine";
+// The title for all waste appointment
+"waste_all_appointment_title" = "Alle anzeigen";
+// The title for waste type
+"waste_waste_type_title" = "Weitere Informationen";
+// The title for picked up waste
+"waste_picked_up_waste_title" = "Was wird abgeholt?";
+// The title for green mobile waste
+"waste_green_mobile_waste_title" = "Grünschnitt Container";
+// The title for old clothes container
+"waste_old_clothes_waste_title" = "Altkleidercontainer";
+// The title for special waste
+"waste_special_waste_title" = "Besondere Abfälle";
+// The title for green mobile waste empty list
+"waste_green_mobile_waste_empty_list" = "Keine Container gefunden";
+
+// MARK: Waste Info
+
+// The screen title
+"waste_info_screen_title" = "Abfall Informationen";
+// The information about picked up waste
+"waste_picked_up_waste_info" = "Die klassischen Haushaltsabfälle wie Restmüll, Biomüll, Papier und Verpackungen werden in den dafür vorgesehenen Behälter gesammelt und in regelmäßigen Abständen automatisch von uns abgeholt.\n\nBesonders sperrige Abfälle werden separat und nur auf Anfrage abgeholt. Einzige Ausnahme: Weihnachtsbäume. Die sammeln wir jedes Jahr nach dem 06.01. ein.";
+// The information about special waste
+"waste_special_waste_info" = "Neben der Entsorgung über die Abfallbehälter gibt es noch weitere Anlaufstellen in Solingen, an denen größere Mengen und vor allem besondere Arten von Abfällen entsorgt werden können.\n\nIn erster Linie sind diese Anlaufstellen das Müllheizkraftwerk und das Entsorgungszentrum Bärenloch. Hinzu kommen mobile Anlaufstellen, welche rollierend an verschiedenen Stellen in Solingen anzutreffen sind.";
+
+// MARK: Waste Description
+
+// The title for opening hours
+"waste_opening_hours_title" = "Öffnungszeiten";
+// The title for contact
+"waste_contact_title" = "Kontakt";
+// The title for contact email
+"waste_email_title" = "Email";
+// The title for contact telephone
+"waste_telephone_title" = "Telefon";
+// The title for contact website
+"waste_website_title" = "Webseite";
+// The title for location
+"waste_location_title" = "Standort";
+// The title for route
+"waste_route_title" = "Route anzeigen";
+
+// MARK: Waste Widget
+
+// The widget title
+"waste_widget_title" = "Nächste Abholtermine";
+
+// Bin type filter
+"waste_filter_button_title" = "Filter nach Müllart";
+"waste_filter_show_all_filter_option" = "Alle anzeigen";
+
+"waste_filter_bottom_sheet_cancel" = "Abbrechen";
+"waste_filter_bottom_sheet_confirm" = "Fertig";
+
+"waste_widget_no_appointments" = "Es sind keine Termine vorgesehen";
+
+//
+"apple_maps" = "Apple Maps";
+//
+"google_maps" = "Google Maps";
+
+"waste_subscribe_calendar" = "Termine zum Kalendar hinzufügen";
+
+"waste_green_waste_appointments" = "Grünschnittcontainer Termine anzeigen";

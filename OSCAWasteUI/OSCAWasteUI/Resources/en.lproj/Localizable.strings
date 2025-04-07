@@ -1,0 +1,112 @@
+
+/*
+  Localizable.strings
+  OSCAWasteUI
+
+  Created by Ömer Kurutay on 29.06.22.
+  
+*/
+
+// MARK: Shared
+
+// The alert title for an error
+"waste_alert_title_error" = "Error";
+// The alert action title to confirm
+"waste_alert_title_confirm" = "OK";
+// The description for organic waste
+"waste_organic_waste_description" = "All organic kitchen waste, before and after the cooking pot, as well as green waste, such as food leftovers, potted and balcony plants, tea bags and coffee filters, belong in the bio bin.\nResidual waste of all kinds, such as diapers, cat litter and liquid food waste, does not belong in the organic waste bin.";
+// The text for residual waste
+"waste_residual_waste_description" = "The residual waste bin is available for classic residual waste, such as hygiene items, ash and plastic household items.";
+// The text for recycled paper
+"waste_recycled_paper_description" = "Paper, cardboard and boxes, including wrapping paper, magazines and catalogues, belong in the blue paper bin. File folders, tetra paks and greasy pizza boxes do not belong in the paper bin.";
+// The text for dual system
+"waste_dual_system_description" = "The yellow bin is available for packaging made of aluminium, plastic, metal and composite materials. So for packaging such as: aluminum shakers, yoghurt pots, tins or milk cartons.\nArticles of daily use made of plastic, metal and composite materials, on the other hand, belong in the residual waste bin.";
+// The text for christmas tree
+"waste_christmas_tree_description" = "At the beginning of each new year, we are out and about collecting the disused Christmas trees and turning them into wood chips.";
+// The text for bulk waste
+"waste_bulk_waste_description" = "Bulky waste that does not fit in a residual waste bin due to its size will be collected upon application. Bulky waste includes, for example, movable household furniture, refrigerators, garden furniture and large toys.";
+
+// MARK: Waste Setup
+
+// The screen title
+"waste_setup_screen_title" = "Waste setup";
+// Placeholder for searchbar
+"waste_search_placeholder" = "Search for address";
+// The description for setting up the user waste address
+"waste_address_setup_description" = "Set up your address to see when your trash will be picked up.";
+// The instruction for setting up the user waste address
+"waste_address_setup_instruction" = "Choose an address and continue.";
+// Select district
+"waste_select_district" = "Please select a district.";
+
+// MARK: Waste
+
+// The screen title
+"waste_screen_title" = "Waste";
+// The reminder title
+"waste_reminder_title" = "Turn on reminder";
+// The title for the next waste appointment
+"waste_next_appointment_title" = "Next appointments";
+// The title for all waste appointment
+"waste_all_appointment_title" = "Show all";
+// The title for waste type
+"waste_waste_type_title" = "Further information";
+// The title for picked up waste
+"waste_picked_up_waste_title" = "What is picked up?";
+// The title for green mobile waste
+"waste_green_mobile_waste_title" = "Green cuttings container";
+// The title for old clothes container
+"waste_old_clothes_waste_title" = "Old clothes container";
+// The title for special waste
+"waste_special_waste_title" = "Special waste";
+// The title for green mobile waste empty list
+"waste_green_mobile_waste_empty_list" = "No Container Found";
+
+// MARK: Waste Info
+
+// The screen title
+"waste_info_screen_title" = "Waste information";
+// The information about picked up waste
+"waste_picked_up_waste_info" = "Classic household waste such as residual waste, organic waste, paper and packaging is collected in the bins provided and automatically picked up by us at regular intervals.\n\nParticularly bulky waste is picked up separately and only on request. The only exception: Christmas trees. We collect them automatically every year in the weeks after the 6th January";
+// The information about special waste
+"waste_special_waste_info" = "In addition to disposal via the rubbish bins, there are other points of contact in Solingen where larger quantities and, above all, special types of waste can be disposed of.\n\nThese points of contact are primarily the waste-to-energy plant and the Bärenloch disposal center. There are also mobile contact points, which can be found at various points in Solingen on a rolling basis.";
+
+// MARK: Waste Description
+
+// The title for opening hours
+"waste_opening_hours_title" = "Opening hours";
+// The title for contact
+"waste_contact_title" = "Contact";
+// The title for contact email
+"waste_email_title" = "E-mail";
+// The title for contact telephone
+"waste_telephone_title" = "Telephone";
+// The title for contact website
+"waste_website_title" = "Website";
+// The title for location
+"waste_location_title" = "Location";
+// The title for route
+"waste_route_title" = "Show route";
+
+// MARK: Waste Widget
+
+// The widget title
+"waste_widget_title" = "Next collection dates";
+
+// Bin type filter
+"waste_filter_button_title" = "Filter by garbage type";
+"waste_filter_show_all_filter_option" = "Show All";
+
+"waste_filter_bottom_sheet_cancel" = "Cancel";
+"waste_filter_bottom_sheet_confirm" = "Done";
+
+"waste_widget_no_appointments" = "There are no appointments scheduled";
+
+//
+"apple_maps" = "Apple Maps";
+//
+"google_maps" = "Google Maps";
+
+"waste_subscribe_calendar" = "Add appointments to calendar";
+
+"waste_green_waste_appointments" = "Show green waste appointments";

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
+        <capability name="Map view configurations" minToolsVersion="14.0"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Waste Green And Clothes View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="OSCAWasteGreenAndClothesViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="OSCAWasteGreenAndClothesViewController" customModule="OSCAWasteUI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleAspectFill" ambiguous="YES" layoutMarginsFollowReadableWidth="YES" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" id="jNn-6W-1Tw">
+                                <rect key="frame" x="0.0" y="145" width="414" height="56"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="cLk-jH-A5P">
+                                        <rect key="frame" x="19" y="6" width="375" height="51"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" name="Primary"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Stadtteil wählen" cornerStyle="medium"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" id="1sA-se-5JH">
+                                <rect key="frame" x="12" y="218" width="382" height="241"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0fF-bh-NFv">
+                                        <rect key="frame" x="9" y="-1" width="373" height="235"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <standardMapConfiguration key="preferredConfiguration"/>
+                                    </mapView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5qO-LK-Sm4" userLabel="ConatinerListView">
+                                <rect key="frame" x="0.0" y="467" width="414" height="128"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="IMS-2V-GHj"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="1sA-se-5JH" firstAttribute="trailing" secondItem="5EZ-qb-Rvc" secondAttribute="trailingMargin" id="4c6-Yh-roq"/>
+                            <constraint firstItem="1sA-se-5JH" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" constant="12" id="81q-UX-L2L"/>
+                            <constraint firstItem="1sA-se-5JH" firstAttribute="top" secondItem="jNn-6W-1Tw" secondAttribute="bottom" id="F21-02-mEN"/>
+                            <constraint firstItem="5qO-LK-Sm4" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" id="gHt-2b-Dtu"/>
+                            <constraint firstItem="1sA-se-5JH" firstAttribute="bottom" secondItem="5qO-LK-Sm4" secondAttribute="top" id="p5c-rO-vLJ"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="5qO-LK-Sm4" secondAttribute="bottom" id="sme-rj-lRm"/>
+                            <constraint firstAttribute="trailing" secondItem="5qO-LK-Sm4" secondAttribute="trailing" id="y8b-z7-gIw"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="button" destination="cLk-jH-A5P" id="JDr-91-trc"/>
+                        <outlet property="containerListView" destination="5qO-LK-Sm4" id="G4T-HE-PuV"/>
+                        <outlet property="mView" destination="1sA-se-5JH" id="20u-dj-UZR"/>
+                        <outlet property="mapView" destination="0fF-bh-NFv" id="0YU-GW-pPE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1057.9710144927537" y="111.83035714285714"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" name="White"/>
+    <resources>
+        <namedColor name="Primary">
+            <color red="0.0" green="0.3529999852180481" blue="0.66699999570846558" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="White">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,1085 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		110E259B2849D8AD0046E111 /* OSCAWasteUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 110E25922849D8AD0046E111 /* OSCAWasteUI.framework */; };
+		110E25A02849D8AD0046E111 /* OSCAWasteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110E259F2849D8AD0046E111 /* OSCAWasteUITests.swift */; };
+		110E25A12849D8AD0046E111 /* OSCAWasteUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 110E25952849D8AD0046E111 /* OSCAWasteUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1123F0132924C6DD003AFF42 /* SwiftDate in Frameworks */ = {isa = PBXBuildFile; productRef = 1123F0122924C6DD003AFF42 /* SwiftDate */; };
+		1139EFF928C9CA940050FAD4 /* WasteFlow+OSCADeeplinkHandeble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1139EFF828C9CA940050FAD4 /* WasteFlow+OSCADeeplinkHandeble.swift */; };
+		1139F00728C9D8D50050FAD4 /* WasteDI+DeeplinkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1139F00628C9D8D50050FAD4 /* WasteDI+DeeplinkHandler.swift */; };
+		11584D6C284A05C4002F880E /* OSCAWasteUI+DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11584D6B284A05C4002F880E /* OSCAWasteUI+DIContainer.swift */; };
+		11584D6E284A0634002F880E /* OSCAWasteUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11584D6D284A0634002F880E /* OSCAWasteUI.swift */; };
+		11676DB5284A4A7B00F4C6E9 /* OSCAEssentials.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11676DB4284A4A7B00F4C6E9 /* OSCAEssentials.framework */; };
+		11676DB6284A4A7B00F4C6E9 /* OSCAEssentials.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 11676DB4284A4A7B00F4C6E9 /* OSCAEssentials.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		11676DBC284A4AAF00F4C6E9 /* OSCAWaste.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11676DBB284A4AAF00F4C6E9 /* OSCAWaste.framework */; };
+		11676DBD284A4AAF00F4C6E9 /* OSCAWaste.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 11676DBB284A4AAF00F4C6E9 /* OSCAWaste.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		11A5FD55287C3B900066ECFE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11A5FD53287C3B900066ECFE /* Localizable.strings */; };
+		11FC17162875E76B0056F002 /* OSCATestCaseExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FC17152875E76B0056F002 /* OSCATestCaseExtension.framework */; };
+		1A778F0B2D5E230600B87264 /* ContainerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A778F0A2D5E230000B87264 /* ContainerListView.swift */; };
+		1AB908C82D686ABE0073D912 /* LocationNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB908C72D686AB30073D912 /* LocationNavigationView.swift */; };
+		B72C89FC2D157FAD00053407 /* OSCAWasteGreenAndClothesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72C89F12D157FAD00053407 /* OSCAWasteGreenAndClothesViewModel.swift */; };
+		B7CC0D532D5B75B400C85F11 /* OSCAWasteGreenAndClothesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CC0D522D5B75A000C85F11 /* OSCAWasteGreenAndClothesViewController.swift */; };
+		B7CC0D552D5B76D400C85F11 /* OSCAWasteGreenAndClothesViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7CC0D542D5B76B800C85F11 /* OSCAWasteGreenAndClothesViewController.storyboard */; };
+		F70FD9CF287430B7004A6E9D /* OSCAWasteInfoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70FD9CE287430B7004A6E9D /* OSCAWasteInfoCollectionViewCell.swift */; };
+		F70FD9D128743792004A6E9D /* OSCAWasteInfoCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70FD9D028743792004A6E9D /* OSCAWasteInfoCellViewModel.swift */; };
+		F71A81CB287D8C60003E8CC3 /* OSCAWasteSetupCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71A81CA287D8C60003E8CC3 /* OSCAWasteSetupCellViewModel.swift */; };
+		F71A81CD287D8D04003E8CC3 /* OSCAWasteSetupCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71A81CC287D8D04003E8CC3 /* OSCAWasteSetupCollectionViewCell.swift */; };
+		F739B0112897E2BD00A798E8 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F739B0102897E2BD00A798E8 /* Media.xcassets */; };
+		F75A308B2865D40B00E964BF /* OSCAWasteAppointmentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75A308A2865D40B00E964BF /* OSCAWasteAppointmentViewModel.swift */; };
+		F75A308D2865D66E00E964BF /* OSCAWasteAppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75A308C2865D66E00E964BF /* OSCAWasteAppointmentViewController.swift */; };
+		F75A30912865DD3B00E964BF /* OSCAWasteAppointmentViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F75A30902865DD3B00E964BF /* OSCAWasteAppointmentViewController.storyboard */; };
+		F75A514B28782A1500C04BE8 /* OSCAWasteSetupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75A514A28782A1500C04BE8 /* OSCAWasteSetupViewModel.swift */; };
+		F75A514D28782B6000C04BE8 /* OSCAWasteSetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75A514C28782B6000C04BE8 /* OSCAWasteSetupViewController.swift */; };
+		F75A515328782BDA00C04BE8 /* OSCAWasteSetupViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F75A515228782BDA00C04BE8 /* OSCAWasteSetupViewController.storyboard */; };
+		F75B739A29AFBAF4009345BA /* OSCAWasteInfoSpecialCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75B739929AFBAF4009345BA /* OSCAWasteInfoSpecialCollectionViewCell.swift */; };
+		F75B739C29AFBB85009345BA /* OSCAWasteInfoSpecialCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75B739B29AFBB85009345BA /* OSCAWasteInfoSpecialCellViewModel.swift */; };
+		F76A0407287EBB3300A6F5AA /* OSCAWasteSetupCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76A0406287EBB3300A6F5AA /* OSCAWasteSetupCollectionReusableView.swift */; };
+		F76A0409287EBD7E00A6F5AA /* OSCAWasteSetupReusableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76A0408287EBD7E00A6F5AA /* OSCAWasteSetupReusableViewModel.swift */; };
+		F76B9377286C47F40028AC27 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F76B9379286C47F40028AC27 /* Localizable.strings */; };
+		F76FBFE6287464FD008531EA /* OSCAWasteSubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76FBFE5287464FD008531EA /* OSCAWasteSubtype.swift */; };
+		F7709AEF2864435F00D50BCC /* OSCAWasteFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7709AEE2864435F00D50BCC /* OSCAWasteFlowCoordinator.swift */; };
+		F7709AF72864457400D50BCC /* OSCAWasteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7709AF62864457400D50BCC /* OSCAWasteViewModel.swift */; };
+		F771DA8F29C99591004F7E16 /* OSCAWasteAppointmentViewControllerWidget.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F771DA8E29C99591004F7E16 /* OSCAWasteAppointmentViewControllerWidget.storyboard */; };
+		F771DA9129C995C9004F7E16 /* OSCAWasteAppointmentViewControllerWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F771DA9029C995C9004F7E16 /* OSCAWasteAppointmentViewControllerWidget.swift */; };
+		F771DA9329C996E4004F7E16 /* OSCAWasteAppointmentViewModelWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F771DA9229C996E4004F7E16 /* OSCAWasteAppointmentViewModelWidget.swift */; };
+		F771DA9529C9C0FE004F7E16 /* OSCAWasteWidgetFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F771DA9429C9C0FE004F7E16 /* OSCAWasteWidgetFlowCoordinator.swift */; };
+		F77428472899210F002715F6 /* OSCAWasteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77428462899210F002715F6 /* OSCAWasteViewController.swift */; };
+		F774284928992126002715F6 /* OSCAWasteViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F774284828992126002715F6 /* OSCAWasteViewController.storyboard */; };
+		F776367B28F8010B005010E8 /* OSCAWasteDescriptionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F776367628F8010B005010E8 /* OSCAWasteDescriptionViewModel.swift */; };
+		F776367C28F8010B005010E8 /* OSCAWasteDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F776367828F8010B005010E8 /* OSCAWasteDescriptionViewController.swift */; };
+		F776367D28F8010B005010E8 /* OSCAWasteDescriptionViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F776367A28F8010B005010E8 /* OSCAWasteDescriptionViewController.storyboard */; };
+		F7946F94288693E8005ED24D /* OSCAWasteSetupFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7946F93288693E8005ED24D /* OSCAWasteSetupFlowCoordinator.swift */; };
+		F7998FEF28880D760063D547 /* API_Develop.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7998FED28880D760063D547 /* API_Develop.plist */; };
+		F7998FF028880D760063D547 /* API_Release.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7998FEE28880D760063D547 /* API_Release.plist */; };
+		F7A493BD28C098E100E2C38E /* OSCASafariView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F774284C28996CF5002715F6 /* OSCASafariView.framework */; };
+		F7A493BE28C098E100E2C38E /* OSCASafariView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F774284C28996CF5002715F6 /* OSCASafariView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F7A80F6A28731EC900AF42E4 /* OSCAWasteInfoViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7A80F6928731EC900AF42E4 /* OSCAWasteInfoViewController.storyboard */; };
+		F7A80F6C2873214100AF42E4 /* OSCAWasteInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A80F6B2873214100AF42E4 /* OSCAWasteInfoViewController.swift */; };
+		F7A80F6E287321D800AF42E4 /* OSCAWasteInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A80F6D287321D800AF42E4 /* OSCAWasteInfoViewModel.swift */; };
+		F7A80F712873376200AF42E4 /* OSCAWasteType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A80F702873376200AF42E4 /* OSCAWasteType.swift */; };
+		F7C8639828657C9D004C79E9 /* OSCAWasteAppointmentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C8639728657C9D004C79E9 /* OSCAWasteAppointmentCollectionViewCell.swift */; };
+		F7C8639A28658198004C79E9 /* OSCAWasteAppointmentCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C8639928658198004C79E9 /* OSCAWasteAppointmentCellViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		110E259C2849D8AD0046E111 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 110E25892849D8AD0046E111 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 110E25912849D8AD0046E111;
+			remoteInfo = OSCAWasteUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		11676DB7284A4A7B00F4C6E9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				11676DB6284A4A7B00F4C6E9 /* OSCAEssentials.framework in Embed Frameworks */,
+				11676DBD284A4AAF00F4C6E9 /* OSCAWaste.framework in Embed Frameworks */,
+				F7A493BE28C098E100E2C38E /* OSCASafariView.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		110E25922849D8AD0046E111 /* OSCAWasteUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OSCAWasteUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		110E25952849D8AD0046E111 /* OSCAWasteUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSCAWasteUI.h; sourceTree = "<group>"; };
+		110E259A2849D8AD0046E111 /* OSCAWasteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OSCAWasteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		110E259F2849D8AD0046E111 /* OSCAWasteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAWasteUITests.swift; sourceTree = "<group>"; };
+		110E25AE2849E0EA0046E111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		113567932849F133006E0C70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1139EFF828C9CA940050FAD4 /* WasteFlow+OSCADeeplinkHandeble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WasteFlow+OSCADeeplinkHandeble.swift"; sourceTree = "<group>"; };
+		1139F00628C9D8D50050FAD4 /* WasteDI+DeeplinkHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WasteDI+DeeplinkHandler.swift"; sourceTree = "<group>"; };
+		11584D6B284A05C4002F880E /* OSCAWasteUI+DIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OSCAWasteUI+DIContainer.swift"; sourceTree = "<group>"; };
+		11584D6D284A0634002F880E /* OSCAWasteUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSCAWasteUI.swift; sourceTree = "<group>"; };
+		11676DB4284A4A7B00F4C6E9 /* OSCAEssentials.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OSCAEssentials.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11676DB8284A4A8700F4C6E9 /* OSCANetworkService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OSCANetworkService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11676DBB284A4AAF00F4C6E9 /* OSCAWaste.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OSCAWaste.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		118DC3B6286199D400365384 /* libOSCATestCaseExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libOSCATestCaseExtension.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		11D0E0B9287D446B0094C026 /* Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Development.xcconfig; path = ../../../../../SupportingFiles/Development.xcconfig; sourceTree = "<group>"; };
+		11D0E0BA287D446B0094C026 /* Production.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Production.xcconfig; path = ../../../../../SupportingFiles/Production.xcconfig; sourceTree = "<group>"; };
+		11FC17152875E76B0056F002 /* OSCATestCaseExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OSCATestCaseExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A778F0A2D5E230000B87264 /* ContainerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerListView.swift; sourceTree = "<group>"; };
+		1AB908C72D686AB30073D912 /* LocationNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationNavigationView.swift; sourceTree = "<group>"; };
+		B72C89F12D157FAD00053407 /* OSCAWasteGreenAndClothesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAWasteGreenAndClothesViewModel.swift; sourceTree = "<group>"; };
+		B7CC0D522D5B75A000C85F11 /* OSCAWasteGreenAndClothesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAWasteGreenAndClothesViewController.swift; sourceTree = "<group>"; };
+		B7CC0D542D5B76B800C85F11 /* OSCAWasteGreenAndClothesViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OSCAWasteGreenAndClothesViewController.storyboard; sourceTree = "<group>"; };
+		C8BF8EB829FBE468002094B7 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F70FD9CE287430B7004A6E9D /* OSCAWasteInfoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAWasteInfoCollectionViewCell.swift; sourceTree = "<group>"; };
+		F70FD9D028743792004A6E9D /* OSCAWasteInfoCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAWasteInfoCellViewModel.swift; sourceTree = "<group>"; };
+		F71A81CA287D8C60003E8CC3 /* OSCAWasteSetupCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAWasteSetupCellViewModel.swift; sourceTree = "<group>"; };
+		F71A81CC287D8D04003E8CC3 /* OSCAWasteSetupCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAWasteSetupCollectionViewCell.swift; sourceTree = "<group>"; };
+		F739B0102897E2BD00A798E8 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		F75A308A2865D40B00E964BF /* OSCAWasteAppointmentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAWasteAppointmentViewModel.swift; sourceTree = "<group>"; };
+		F75A308C2865D66E00E964BF /* OSCAWasteAppointmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAWasteAppointmentViewController.swift; sourceTree = "<group>"; };
+		F75A30902865DD3B00E964BF /* OSCAWasteAppointmentViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OSCAWasteAppointmentViewController.storyboard; sourceTree = "<group>"; };
+		F75A514A28782A1500C04BE8 /* OSCAWasteSetupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAWasteSetupViewModel.swift; sourceTree = "<group>"; };
+		F75A514C28782B6000C04BE8 /* OSCAWasteSetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAWasteSetupViewController.swift; sourceTree = "<group>"; };
+		F75A515228782BDA00C04BE8 /* OSCAWasteSetupViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OSCAWasteSetupViewController.storyboard; sourceTree = "<group>"; };
+		F75B739929AFBAF4009345BA /* OSCAWasteInfoSpecialCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAWasteInfoSpecialCollectionViewCell.swift; sourceTree = "<group>"; };
+		F75B739B29AFBB85009345BA /* OSCAWasteInfoSpecialCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAWasteInfoSpecialCellViewModel.swift; sourceTree = "<group>"; };
+		F76A0406287EBB3300A6F5AA /* OSCAWasteSetupCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAWasteSetupCollectionReusableView.swift; sourceTree = "<group>"; };
+		F76A0408287EBD7E00A6F5AA /* OSCAWasteSetupReusableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAWasteSetupReusableViewModel.swift; sourceTree = "<group>"; };
+		F76B9378286C47F40028AC27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F76B937A286C47F70028AC27 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F76FBFE5287464FD008531EA /* OSCAWasteSubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAWasteSubtype.swift; sourceTree = "<group>"; };
+		F7709AEE2864435F00D50BCC /* OSCAWasteFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAWasteFlowCoordinator.swift; sourceTree = "<group>"; };
+		F7709AF62864457400D50BCC /* OSCAWasteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAWasteViewModel.swift; sourceTree = "<group>"; };
+		F771DA8E29C99591004F7E16 /* OSCAWasteAppointmentViewControllerWidget.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OSCAWasteAppointmentViewControllerWidget.storyboard; sourceTree = "<group>"; };
+		F771DA9029C995C9004F7E16 /* OSCAWasteAppointmentViewControllerWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAWasteAppointmentViewControllerWidget.swift; sourceTree = "<group>"; };
+		F771DA9229C996E4004F7E16 /* OSCAWasteAppointmentViewModelWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAWasteAppointmentViewModelWidget.swift; sourceTree = "<group>"; };
+		F771DA9429C9C0FE004F7E16 /* OSCAWasteWidgetFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAWasteWidgetFlowCoordinator.swift; sourceTree = "<group>"; };
+		F77428462899210F002715F6 /* OSCAWasteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSCAWasteViewController.swift; sourceTree = "<group>"; };
+		F774284828992126002715F6 /* OSCAWasteViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OSCAWasteViewController.storyboard; sourceTree = "<group>"; };
+		F774284C28996CF5002715F6 /* OSCASafariView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OSCASafariView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F776367628F8010B005010E8 /* OSCAWasteDescriptionViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSCAWasteDescriptionViewModel.swift; sourceTree = "<group>"; };
+		F776367828F8010B005010E8 /* OSCAWasteDescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSCAWasteDescriptionViewController.swift; sourceTree = "<group>"; };
+		F776367A28F8010B005010E8 /* OSCAWasteDescriptionViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OSCAWasteDescriptionViewController.storyboard; sourceTree = "<group>"; };
+		F7946F93288693E8005ED24D /* OSCAWasteSetupFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAWasteSetupFlowCoordinator.swift; sourceTree = "<group>"; };
+		F7998FED28880D760063D547 /* API_Develop.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = API_Develop.plist; path = ../../../../../SupportingFiles/API_Develop.plist; sourceTree = "<group>"; };
+		F7998FEE28880D760063D547 /* API_Release.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = API_Release.plist; path = ../../../../../SupportingFiles/API_Release.plist; sourceTree = "<group>"; };
+		F7A80F6928731EC900AF42E4 /* OSCAWasteInfoViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OSCAWasteInfoViewController.storyboard; sourceTree = "<group>"; };
+		F7A80F6B2873214100AF42E4 /* OSCAWasteInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAWasteInfoViewController.swift; sourceTree = "<group>"; };
+		F7A80F6D287321D800AF42E4 /* OSCAWasteInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAWasteInfoViewModel.swift; sourceTree = "<group>"; };
+		F7A80F702873376200AF42E4 /* OSCAWasteType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAWasteType.swift; sourceTree = "<group>"; };
+		F7C8639728657C9D004C79E9 /* OSCAWasteAppointmentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAWasteAppointmentCollectionViewCell.swift; sourceTree = "<group>"; };
+		F7C8639928658198004C79E9 /* OSCAWasteAppointmentCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAWasteAppointmentCellViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		110E258F2849D8AD0046E111 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1123F0132924C6DD003AFF42 /* SwiftDate in Frameworks */,
+				11676DB5284A4A7B00F4C6E9 /* OSCAEssentials.framework in Frameworks */,
+				11676DBC284A4AAF00F4C6E9 /* OSCAWaste.framework in Frameworks */,
+				F7A493BD28C098E100E2C38E /* OSCASafariView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		110E25972849D8AD0046E111 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11FC17162875E76B0056F002 /* OSCATestCaseExtension.framework in Frameworks */,
+				110E259B2849D8AD0046E111 /* OSCAWasteUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		110E25882849D8AD0046E111 = {
+			isa = PBXGroup;
+			children = (
+				118119E9285A0DA800253965 /* scripts */,
+				110E25942849D8AD0046E111 /* OSCAWasteUI */,
+				110E259E2849D8AD0046E111 /* OSCAWasteUITests */,
+				110E25932849D8AD0046E111 /* Products */,
+				11676DB3284A4A7B00F4C6E9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		110E25932849D8AD0046E111 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				110E25922849D8AD0046E111 /* OSCAWasteUI.framework */,
+				110E259A2849D8AD0046E111 /* OSCAWasteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		110E25942849D8AD0046E111 /* OSCAWasteUI */ = {
+			isa = PBXGroup;
+			children = (
+				1139EFF728C9CA7F0050FAD4 /* Deeplink */,
+				110E25AE2849E0EA0046E111 /* Info.plist */,
+				11584D6B284A05C4002F880E /* OSCAWasteUI+DIContainer.swift */,
+				11584D6D284A0634002F880E /* OSCAWasteUI.swift */,
+				F70FD9D228746416004A6E9D /* Objects */,
+				F7A80F6F2873369A00AF42E4 /* Types */,
+				11676D6D284A451000F4C6E9 /* OSCAWasteScene */,
+				F7510CC0286C46C8004041D4 /* Resources */,
+				11D0E08C287D41690094C026 /* SupportingFiles */,
+				110E25952849D8AD0046E111 /* OSCAWasteUI.h */,
+			);
+			path = OSCAWasteUI;
+			sourceTree = "<group>";
+		};
+		110E259E2849D8AD0046E111 /* OSCAWasteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				113567932849F133006E0C70 /* Info.plist */,
+				11A5FD52287C3B900066ECFE /* Resources */,
+				110E259F2849D8AD0046E111 /* OSCAWasteUITests.swift */,
+			);
+			path = OSCAWasteUITests;
+			sourceTree = "<group>";
+		};
+		1139EFF728C9CA7F0050FAD4 /* Deeplink */ = {
+			isa = PBXGroup;
+			children = (
+				1139EFF828C9CA940050FAD4 /* WasteFlow+OSCADeeplinkHandeble.swift */,
+				1139F00628C9D8D50050FAD4 /* WasteDI+DeeplinkHandler.swift */,
+			);
+			path = Deeplink;
+			sourceTree = "<group>";
+		};
+		11676D6D284A451000F4C6E9 /* OSCAWasteScene */ = {
+			isa = PBXGroup;
+			children = (
+				B72C89FB2D157FAD00053407 /* WasteGreenAndClothes */,
+				F771DA8A29C99490004F7E16 /* WasteAppointmentWidget */,
+				F75A5146287827CF00C04BE8 /* WasteSetup */,
+				F7709AF02864445800D50BCC /* Waste */,
+				F75A30862865D3CC00E964BF /* WasteAppointment */,
+				F7A80F6528731E3000AF42E4 /* WasteInfo */,
+				F776367428F8010B005010E8 /* WasteDescription */,
+				F7709AED2864433200D50BCC /* Flows */,
+			);
+			path = OSCAWasteScene;
+			sourceTree = "<group>";
+		};
+		11676DB3284A4A7B00F4C6E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F774284C28996CF5002715F6 /* OSCASafariView.framework */,
+				11FC17152875E76B0056F002 /* OSCATestCaseExtension.framework */,
+				118DC3B6286199D400365384 /* libOSCATestCaseExtension.a */,
+				11676DBB284A4AAF00F4C6E9 /* OSCAWaste.framework */,
+				11676DB8284A4A8700F4C6E9 /* OSCANetworkService.framework */,
+				11676DB4284A4A7B00F4C6E9 /* OSCAEssentials.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		118119E9285A0DA800253965 /* scripts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = scripts;
+			sourceTree = "<group>";
+		};
+		11A5FD52287C3B900066ECFE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F7998FED28880D760063D547 /* API_Develop.plist */,
+				F7998FEE28880D760063D547 /* API_Release.plist */,
+				11A5FD53287C3B900066ECFE /* Localizable.strings */,
+			);
+			name = Resources;
+			path = ../../../OSCAWaste/OSCAWaste/OSCAWasteTests/Resources;
+			sourceTree = "<group>";
+		};
+		11D0E08C287D41690094C026 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				11D0E0B9287D446B0094C026 /* Development.xcconfig */,
+				11D0E0BA287D446B0094C026 /* Production.xcconfig */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		B72C89F42D157FAD00053407 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B72C89F12D157FAD00053407 /* OSCAWasteGreenAndClothesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B72C89F82D157FAD00053407 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B7CC0D522D5B75A000C85F11 /* OSCAWasteGreenAndClothesViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B72C89FA2D157FAD00053407 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1AB908C72D686AB30073D912 /* LocationNavigationView.swift */,
+				1A778F0A2D5E230000B87264 /* ContainerListView.swift */,
+				B7CC0D542D5B76B800C85F11 /* OSCAWasteGreenAndClothesViewController.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B72C89FB2D157FAD00053407 /* WasteGreenAndClothes */ = {
+			isa = PBXGroup;
+			children = (
+				B72C89F42D157FAD00053407 /* ViewModel */,
+				B72C89F82D157FAD00053407 /* Controller */,
+				B72C89FA2D157FAD00053407 /* View */,
+			);
+			path = WasteGreenAndClothes;
+			sourceTree = "<group>";
+		};
+		F70FD9D228746416004A6E9D /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				F76FBFE5287464FD008531EA /* OSCAWasteSubtype.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		F7510CC0286C46C8004041D4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F76B9379286C47F40028AC27 /* Localizable.strings */,
+				F739B0102897E2BD00A798E8 /* Media.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F75A30862865D3CC00E964BF /* WasteAppointment */ = {
+			isa = PBXGroup;
+			children = (
+				F75A30892865D3EA00E964BF /* ViewModel */,
+				F75A30882865D3E200E964BF /* Controller */,
+				F75A30872865D3DE00E964BF /* View */,
+			);
+			path = WasteAppointment;
+			sourceTree = "<group>";
+		};
+		F75A30872865D3DE00E964BF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F75A30902865DD3B00E964BF /* OSCAWasteAppointmentViewController.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F75A30882865D3E200E964BF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F75A308C2865D66E00E964BF /* OSCAWasteAppointmentViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F75A30892865D3EA00E964BF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F75A308A2865D40B00E964BF /* OSCAWasteAppointmentViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F75A5146287827CF00C04BE8 /* WasteSetup */ = {
+			isa = PBXGroup;
+			children = (
+				F75A5149287827E200C04BE8 /* ViewModel */,
+				F75A5148287827DE00C04BE8 /* Controller */,
+				F75A5147287827DA00C04BE8 /* View */,
+			);
+			path = WasteSetup;
+			sourceTree = "<group>";
+		};
+		F75A5147287827DA00C04BE8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F75A515228782BDA00C04BE8 /* OSCAWasteSetupViewController.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F75A5148287827DE00C04BE8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F75A514C28782B6000C04BE8 /* OSCAWasteSetupViewController.swift */,
+				F71A81CC287D8D04003E8CC3 /* OSCAWasteSetupCollectionViewCell.swift */,
+				F76A0406287EBB3300A6F5AA /* OSCAWasteSetupCollectionReusableView.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F75A5149287827E200C04BE8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F75A514A28782A1500C04BE8 /* OSCAWasteSetupViewModel.swift */,
+				F71A81CA287D8C60003E8CC3 /* OSCAWasteSetupCellViewModel.swift */,
+				F76A0408287EBD7E00A6F5AA /* OSCAWasteSetupReusableViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F7709AED2864433200D50BCC /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				F7709AEE2864435F00D50BCC /* OSCAWasteFlowCoordinator.swift */,
+				F7946F93288693E8005ED24D /* OSCAWasteSetupFlowCoordinator.swift */,
+				F771DA9429C9C0FE004F7E16 /* OSCAWasteWidgetFlowCoordinator.swift */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		F7709AF02864445800D50BCC /* Waste */ = {
+			isa = PBXGroup;
+			children = (
+				F7709AF32864446F00D50BCC /* ViewModel */,
+				F7709AF22864446700D50BCC /* Controller */,
+				F7709AF12864445E00D50BCC /* View */,
+			);
+			path = Waste;
+			sourceTree = "<group>";
+		};
+		F7709AF12864445E00D50BCC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F774284828992126002715F6 /* OSCAWasteViewController.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F7709AF22864446700D50BCC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F77428462899210F002715F6 /* OSCAWasteViewController.swift */,
+				F7C8639728657C9D004C79E9 /* OSCAWasteAppointmentCollectionViewCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F7709AF32864446F00D50BCC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F7709AF62864457400D50BCC /* OSCAWasteViewModel.swift */,
+				F7C8639928658198004C79E9 /* OSCAWasteAppointmentCellViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F771DA8A29C99490004F7E16 /* WasteAppointmentWidget */ = {
+			isa = PBXGroup;
+			children = (
+				F771DA8D29C99528004F7E16 /* ViewModel */,
+				F771DA8C29C994F5004F7E16 /* Controller */,
+				F771DA8B29C994E6004F7E16 /* View */,
+			);
+			path = WasteAppointmentWidget;
+			sourceTree = "<group>";
+		};
+		F771DA8B29C994E6004F7E16 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F771DA8E29C99591004F7E16 /* OSCAWasteAppointmentViewControllerWidget.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F771DA8C29C994F5004F7E16 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F771DA9029C995C9004F7E16 /* OSCAWasteAppointmentViewControllerWidget.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F771DA8D29C99528004F7E16 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F771DA9229C996E4004F7E16 /* OSCAWasteAppointmentViewModelWidget.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F776367428F8010B005010E8 /* WasteDescription */ = {
+			isa = PBXGroup;
+			children = (
+				F776367528F8010B005010E8 /* ViewModel */,
+				F776367728F8010B005010E8 /* Controller */,
+				F776367928F8010B005010E8 /* View */,
+			);
+			path = WasteDescription;
+			sourceTree = "<group>";
+		};
+		F776367528F8010B005010E8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F776367628F8010B005010E8 /* OSCAWasteDescriptionViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F776367728F8010B005010E8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F776367828F8010B005010E8 /* OSCAWasteDescriptionViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F776367928F8010B005010E8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F776367A28F8010B005010E8 /* OSCAWasteDescriptionViewController.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F7A80F6528731E3000AF42E4 /* WasteInfo */ = {
+			isa = PBXGroup;
+			children = (
+				F7A80F6828731E6300AF42E4 /* ViewModel */,
+				F7A80F6728731E5C00AF42E4 /* Controller */,
+				F7A80F6628731E5800AF42E4 /* View */,
+			);
+			path = WasteInfo;
+			sourceTree = "<group>";
+		};
+		F7A80F6628731E5800AF42E4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F7A80F6928731EC900AF42E4 /* OSCAWasteInfoViewController.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F7A80F6728731E5C00AF42E4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F7A80F6B2873214100AF42E4 /* OSCAWasteInfoViewController.swift */,
+				F70FD9CE287430B7004A6E9D /* OSCAWasteInfoCollectionViewCell.swift */,
+				F75B739929AFBAF4009345BA /* OSCAWasteInfoSpecialCollectionViewCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F7A80F6828731E6300AF42E4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F7A80F6D287321D800AF42E4 /* OSCAWasteInfoViewModel.swift */,
+				F70FD9D028743792004A6E9D /* OSCAWasteInfoCellViewModel.swift */,
+				F75B739B29AFBB85009345BA /* OSCAWasteInfoSpecialCellViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F7A80F6F2873369A00AF42E4 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				F7A80F702873376200AF42E4 /* OSCAWasteType.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		110E258D2849D8AD0046E111 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110E25A12849D8AD0046E111 /* OSCAWasteUI.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		110E25912849D8AD0046E111 /* OSCAWasteUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 110E25A42849D8AD0046E111 /* Build configuration list for PBXNativeTarget "OSCAWasteUI" */;
+			buildPhases = (
+				110E258D2849D8AD0046E111 /* Headers */,
+				110E258E2849D8AD0046E111 /* Sources */,
+				110E258F2849D8AD0046E111 /* Frameworks */,
+				110E25902849D8AD0046E111 /* Resources */,
+				11676DB7284A4A7B00F4C6E9 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OSCAWasteUI;
+			packageProductDependencies = (
+				1123F0122924C6DD003AFF42 /* SwiftDate */,
+			);
+			productName = OSCAWasteUI;
+			productReference = 110E25922849D8AD0046E111 /* OSCAWasteUI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		110E25992849D8AD0046E111 /* OSCAWasteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 110E25A72849D8AD0046E111 /* Build configuration list for PBXNativeTarget "OSCAWasteUITests" */;
+			buildPhases = (
+				110E25962849D8AD0046E111 /* Sources */,
+				110E25972849D8AD0046E111 /* Frameworks */,
+				110E25982849D8AD0046E111 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				110E259D2849D8AD0046E111 /* PBXTargetDependency */,
+			);
+			name = OSCAWasteUITests;
+			productName = OSCAWasteUITests;
+			productReference = 110E259A2849D8AD0046E111 /* OSCAWasteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		110E25892849D8AD0046E111 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					110E25912849D8AD0046E111 = {
+						CreatedOnToolsVersion = 13.4.1;
+						LastSwiftMigration = 1340;
+					};
+					110E25992849D8AD0046E111 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 110E258C2849D8AD0046E111 /* Build configuration list for PBXProject "OSCAWasteUI" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = de;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				de,
+				Base,
+			);
+			mainGroup = 110E25882849D8AD0046E111;
+			packageReferences = (
+				11D5EBAB2924B9D1003E3C14 /* XCRemoteSwiftPackageReference "SwiftDate" */,
+			);
+			productRefGroup = 110E25932849D8AD0046E111 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				110E25912849D8AD0046E111 /* OSCAWasteUI */,
+				110E25992849D8AD0046E111 /* OSCAWasteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		110E25902849D8AD0046E111 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75A515328782BDA00C04BE8 /* OSCAWasteSetupViewController.storyboard in Resources */,
+				F76B9377286C47F40028AC27 /* Localizable.strings in Resources */,
+				F75A30912865DD3B00E964BF /* OSCAWasteAppointmentViewController.storyboard in Resources */,
+				F774284928992126002715F6 /* OSCAWasteViewController.storyboard in Resources */,
+				B7CC0D552D5B76D400C85F11 /* OSCAWasteGreenAndClothesViewController.storyboard in Resources */,
+				F771DA8F29C99591004F7E16 /* OSCAWasteAppointmentViewControllerWidget.storyboard in Resources */,
+				F776367D28F8010B005010E8 /* OSCAWasteDescriptionViewController.storyboard in Resources */,
+				F739B0112897E2BD00A798E8 /* Media.xcassets in Resources */,
+				F7A80F6A28731EC900AF42E4 /* OSCAWasteInfoViewController.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		110E25982849D8AD0046E111 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A5FD55287C3B900066ECFE /* Localizable.strings in Resources */,
+				F7998FF028880D760063D547 /* API_Release.plist in Resources */,
+				F7998FEF28880D760063D547 /* API_Develop.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		110E258E2849D8AD0046E111 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11584D6E284A0634002F880E /* OSCAWasteUI.swift in Sources */,
+				F77428472899210F002715F6 /* OSCAWasteViewController.swift in Sources */,
+				F7A80F6E287321D800AF42E4 /* OSCAWasteInfoViewModel.swift in Sources */,
+				B7CC0D532D5B75B400C85F11 /* OSCAWasteGreenAndClothesViewController.swift in Sources */,
+				1A778F0B2D5E230600B87264 /* ContainerListView.swift in Sources */,
+				F771DA9329C996E4004F7E16 /* OSCAWasteAppointmentViewModelWidget.swift in Sources */,
+				F7709AF72864457400D50BCC /* OSCAWasteViewModel.swift in Sources */,
+				1139F00728C9D8D50050FAD4 /* WasteDI+DeeplinkHandler.swift in Sources */,
+				F70FD9CF287430B7004A6E9D /* OSCAWasteInfoCollectionViewCell.swift in Sources */,
+				F776367C28F8010B005010E8 /* OSCAWasteDescriptionViewController.swift in Sources */,
+				F75B739A29AFBAF4009345BA /* OSCAWasteInfoSpecialCollectionViewCell.swift in Sources */,
+				F771DA9529C9C0FE004F7E16 /* OSCAWasteWidgetFlowCoordinator.swift in Sources */,
+				F776367B28F8010B005010E8 /* OSCAWasteDescriptionViewModel.swift in Sources */,
+				F7A80F6C2873214100AF42E4 /* OSCAWasteInfoViewController.swift in Sources */,
+				F76FBFE6287464FD008531EA /* OSCAWasteSubtype.swift in Sources */,
+				F7A80F712873376200AF42E4 /* OSCAWasteType.swift in Sources */,
+				11584D6C284A05C4002F880E /* OSCAWasteUI+DIContainer.swift in Sources */,
+				F7C8639828657C9D004C79E9 /* OSCAWasteAppointmentCollectionViewCell.swift in Sources */,
+				F75A308B2865D40B00E964BF /* OSCAWasteAppointmentViewModel.swift in Sources */,
+				F70FD9D128743792004A6E9D /* OSCAWasteInfoCellViewModel.swift in Sources */,
+				F75A308D2865D66E00E964BF /* OSCAWasteAppointmentViewController.swift in Sources */,
+				F75B739C29AFBB85009345BA /* OSCAWasteInfoSpecialCellViewModel.swift in Sources */,
+				F7946F94288693E8005ED24D /* OSCAWasteSetupFlowCoordinator.swift in Sources */,
+				F71A81CD287D8D04003E8CC3 /* OSCAWasteSetupCollectionViewCell.swift in Sources */,
+				1139EFF928C9CA940050FAD4 /* WasteFlow+OSCADeeplinkHandeble.swift in Sources */,
+				1AB908C82D686ABE0073D912 /* LocationNavigationView.swift in Sources */,
+				F71A81CB287D8C60003E8CC3 /* OSCAWasteSetupCellViewModel.swift in Sources */,
+				F75A514D28782B6000C04BE8 /* OSCAWasteSetupViewController.swift in Sources */,
+				B72C89FC2D157FAD00053407 /* OSCAWasteGreenAndClothesViewModel.swift in Sources */,
+				F771DA9129C995C9004F7E16 /* OSCAWasteAppointmentViewControllerWidget.swift in Sources */,
+				F7709AEF2864435F00D50BCC /* OSCAWasteFlowCoordinator.swift in Sources */,
+				F7C8639A28658198004C79E9 /* OSCAWasteAppointmentCellViewModel.swift in Sources */,
+				F76A0407287EBB3300A6F5AA /* OSCAWasteSetupCollectionReusableView.swift in Sources */,
+				F75A514B28782A1500C04BE8 /* OSCAWasteSetupViewModel.swift in Sources */,
+				F76A0409287EBD7E00A6F5AA /* OSCAWasteSetupReusableViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		110E25962849D8AD0046E111 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110E25A02849D8AD0046E111 /* OSCAWasteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		110E259D2849D8AD0046E111 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 110E25912849D8AD0046E111 /* OSCAWasteUI */;
+			targetProxy = 110E259C2849D8AD0046E111 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11A5FD53287C3B900066ECFE /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8BF8EB829FBE468002094B7 /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		F76B9379286C47F40028AC27 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F76B9378286C47F40028AC27 /* en */,
+				F76B937A286C47F70028AC27 /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		110E25A22849D8AD0046E111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11D0E0B9287D446B0094C026 /* Development.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 20240321.1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		110E25A32849D8AD0046E111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11D0E0BA287D446B0094C026 /* Production.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 20240321.1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		110E25A52849D8AD0046E111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11D0E0B9287D446B0094C026 /* Development.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 20240321.1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = RSJ53UGKPZ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OSCAWasteUI/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = de.osca.waste.ui;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		110E25A62849D8AD0046E111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11D0E0BA287D446B0094C026 /* Production.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 20240321.1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = RSJ53UGKPZ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OSCAWasteUI/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = de.osca.waste.ui;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		110E25A82849D8AD0046E111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11D0E0B9287D446B0094C026 /* Development.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 20240321.1;
+				DEVELOPMENT_TEAM = RSJ53UGKPZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OSCAWasteUITests/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				MARKETING_VERSION = 1.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = de.osca.waste.ui.OSCAWasteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		110E25A92849D8AD0046E111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11D0E0BA287D446B0094C026 /* Production.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 20240321.1;
+				DEVELOPMENT_TEAM = RSJ53UGKPZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OSCAWasteUITests/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				MARKETING_VERSION = 1.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = de.osca.waste.ui.OSCAWasteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		110E258C2849D8AD0046E111 /* Build configuration list for PBXProject "OSCAWasteUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				110E25A22849D8AD0046E111 /* Debug */,
+				110E25A32849D8AD0046E111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		110E25A42849D8AD0046E111 /* Build configuration list for PBXNativeTarget "OSCAWasteUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				110E25A52849D8AD0046E111 /* Debug */,
+				110E25A62849D8AD0046E111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		110E25A72849D8AD0046E111 /* Build configuration list for PBXNativeTarget "OSCAWasteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				110E25A82849D8AD0046E111 /* Debug */,
+				110E25A92849D8AD0046E111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		11D5EBAB2924B9D1003E3C14 /* XCRemoteSwiftPackageReference "SwiftDate" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/malcommac/SwiftDate.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1123F0122924C6DD003AFF42 /* SwiftDate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 11D5EBAB2924B9D1003E3C14 /* XCRemoteSwiftPackageReference "SwiftDate" */;
+			productName = SwiftDate;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 110E25892849D8AD0046E111 /* Project object */;
+}
